@@ -1,0 +1,70 @@
+.
+├── architecture.txt
+├── migrations
+├── pytest.ini
+├── README.md
+├── req.txt
+├── scripts
+│   └── pre_initial.py
+├── src
+│   ├── adapters
+│   │   ├── inbound
+│   │   │   └── http
+│   │   │       ├── controllers
+│   │   │       │   ├── auth_controller.py
+│   │   │       │   └── struct_controller.py
+│   │   │       └── schemas
+│   │   │           ├── column_schema.py
+│   │   │           ├── project_schema.py
+│   │   │           ├── taskboard_schema.py
+│   │   │           └── user_schema.py
+│   │   └── outbound
+│   │       └── persistence
+│   │           ├── models
+│   │           │   ├── base.py
+│   │           │   ├── column.py
+│   │           │   ├── project.py
+│   │           │   ├── taskboard.py
+│   │           │   └── user.py
+│   │           └── repositories
+│   │               ├── base_rep.py
+│   │               ├── column_rep.py
+│   │               ├── project_rep.py
+│   │               ├── taskboard_rep.py
+│   │               └── user_rep.py
+│   ├── config.py
+│   ├── core
+│   │   ├── domain
+│   │   │   └── entities.py
+│   │   ├── ports
+│   │   │   ├── base_repository.py
+│   │   │   ├── project_repository.py
+│   │   │   ├── taskboard_repository.py
+│   │   │   └── user_repository.py
+│   │   └── usecases
+│   │       ├── opresult.py
+│   │       └── struct
+│   │           ├── fetcher.py
+│   │           ├── __init__.py
+│   │           ├── orchestrator.py
+│   │           └── sender.py
+│   ├── main.py
+│   └── shared
+│       ├── exceptions
+│       ├── extensions.py
+│       └── utils
+│           └── security.py
+└── tests
+    ├── adapters
+    │   └── inbound
+    │       └── http
+    │           └── controllers
+    │               └── test_auth_controller.py
+    └── core
+        └── usecases
+            ├── test_opresult.py
+            ├── test_struct_fetcher.py
+            ├── test_struct_orchestrator.py
+            └── test_struct_sender.py
+
+37 directories, 52 files

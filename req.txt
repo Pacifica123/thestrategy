@@ -1,0 +1,7 @@
+Flask
+Flask-Cors
+Flask-SQLAlchemy
+PyJWT
+psycopg2-binary
+pytest
+python-dotenv
