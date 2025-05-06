@@ -5,3 +5,8 @@ PyJWT
 psycopg2-binary
 pytest
 python-dotenv
+flask_migrate
+flask_jwt_extended
+'pydantic[email]'
+bcrypt
+requests

@@ -10,4 +10,4 @@ from .project_member import ProjectMember
 from .project_member_permission import ProjectMemberPermission
 from .history import History
 from .eventlog import EventLog
-
+from .base import Base

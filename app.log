@@ -1,0 +1,9 @@
+2025-05-07 01:56:28,379 INFO     [src.core.usecases.auth.service:24] Попытка регистрации пользователя: test
+2025-05-07 01:59:39,058 INFO     [src.core.usecases.auth.service:24] Попытка регистрации пользователя: test
+2025-05-07 02:00:08,631 ERROR    [src.core.usecases.auth.service:38] Ошибка авторизации
+NoneType: None
+2025-05-07 02:02:30,989 ERROR    [src.core.usecases.auth.service:38] Ошибка авторизации
+NoneType: None
+2025-05-07 02:02:40,270 ERROR    [src.core.usecases.auth.service:38] Ошибка авторизации
+NoneType: None
+2025-05-07 02:05:30,680 INFO     [src.core.usecases.auth.service:24] Попытка регистрации пользователя: test1
